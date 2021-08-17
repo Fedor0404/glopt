@@ -1,0 +1,145 @@
+.header {
+    padding-top: 20px;
+    min-height: 680px;
+    background: url('../img/menu/bg.png') no-repeat 50%/cover;
+    &__menu {
+        padding-top: 30px;
+        &-flex {
+            display: flex;
+            height: 100px;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &-items {
+            display: flex;
+            width: 596px;
+            justify-content: space-between;
+        }
+        &-item {
+            font-size: 15px;
+            line-height: 16px;
+            border-right: 1px dotted #858891;
+            padding-right: 12px;
+            line-height: 27px;
+            a {
+                text-decoration: none;
+                color: $white-colour;
+                &:hover {
+                    color: $red-colour;
+                    cursor: pointer;
+                    border-bottom: 1px solid $red-colour;
+                    padding-bottom: 4px;
+    
+                }
+            }
+ 
+            &:last-child {
+                border-right: none;
+            }
+        }
+        &-questions {
+            width: 165px;
+            display: flex;
+            flex-direction: column;
+            color: $white-colour;            
+        }
+        &-text {
+            font-size: 14px;
+        }
+        &-tel {
+            font-size: 19px;
+            font-weight: bold;
+            a {
+                text-decoration: none;
+                color: $white-colour;  
+                &:hover {
+                    color: $red-colour;
+                }
+            }
+        }
+    }
+
+    &__main {
+        padding-top: 6px;
+        color: $white-colour;
+        text-align: center;
+        &-all {
+            font-size: 24px;
+            font-weight: lighter;
+            
+        }
+        &-title {
+            padding-top: 40px;
+            font-size: 72px;
+            font-weight: 500;
+            color: $red-colour;
+            font-family: Roboto Condensed;            
+        }
+        &-subtatle {
+            padding-top: 30px;
+            font-size: 42px;
+            font-weight: 500;
+            font-family: Roboto Condensed;
+        }
+        &-btn {
+            height: 57px;
+            padding: 0px 50px;
+            font-size: 15px;
+            margin-bottom: 80px;
+        }
+
+    }
+    
+    &__wreapper {
+        padding-top: 50px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__devider {
+        // width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-left {
+            width: 35%;
+            height: 1px;
+            background-color: $white-colour;
+        }
+
+        &-point {
+            margin-left: 10px;
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            background-color: $white-colour;
+        }
+
+        &-right {
+            margin-left: 10px;
+            width: 35%;
+            height: 1px;
+            background-color: $white-colour;
+        }
+    }
+
+    &__service {
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(4, 267px);
+        grid-template-rows: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__text {
+        padding-top: 13px;
+        font-size: 16px;
+        line-height: 22px;
+        padding-bottom: 50px;
+    }
+
+    
+    
+}

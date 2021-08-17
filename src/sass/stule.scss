@@ -1,0 +1,37 @@
+@import 'lips/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import "base/variables";
+@import 'base/mixin';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+
+@import 'blocks/button';
+@import 'blocks/header';
+@import 'blocks/advantages';
+@import 'blocks/ourwork';
+@import 'blocks/wall';
+@import 'blocks/price';
+@import 'blocks/consultation';
+@import 'blocks/manager';
+@import 'blocks/scheme';
+@import 'blocks/carusel';
+@import 'blocks/comment';
+@import 'blocks/map';
+@import 'blocks/footer';

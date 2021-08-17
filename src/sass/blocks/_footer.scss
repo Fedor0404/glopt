@@ -1,0 +1,69 @@
+.footer {
+    padding-top: 20px;
+    background-color: #25333c;
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: $white-colour;
+        &:nth-child(2) {
+            padding-right: 60px;
+        }
+    }
+    &__descr {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &__empty {
+        min-width: 20%;
+    }
+    &__haveQuestions {
+        width: 170px;
+        display: inline;
+        text-align: right;
+        &-title {
+            font-size: 14px;
+            font-weight: 300;
+        }
+        &-phone {
+            font-size: 19px;
+            font-weight: 700;
+            a {
+                text-decoration: none;
+                color: $white-colour;
+                &:hover {
+                    color: $red-colour;
+                }
+            }
+        }
+    }
+    &__divider {
+        margin-top: 30px;
+        background-color: $white-colour;
+        opacity: 0.3;
+        width: 100%;
+        height: 1px;
+    }
+    &__buttom {
+        padding: 25px 0 40px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: $white-colour;
+        font-size: 13px;
+        font-weight: 300;
+        &-policy {
+            a {
+                color: $red-colour;
+            }
+        }
+        &-creator {
+            a {
+                color: $white-colour;
+                text-decoration: none;
+            }
+        }
+    }
+
+
+}

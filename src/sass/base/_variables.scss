@@ -1,0 +1,28 @@
+$white-colour: #fff;    
+$red-colour: #ec644b;
+
+.var-title {
+    font-size: 26px;
+    line-height: 23px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+    text-transform: uppercase;
+}
+
+.divider {        
+    height: 1px;
+    width: 148px;
+    margin: 25px auto 0 auto;
+    background-color: $red-colour;
+}
+
+.var-subtitle {
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 21px;
+    line-height: 24px;
+    text-align: center;
+}

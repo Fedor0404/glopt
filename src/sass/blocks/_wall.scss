@@ -1,0 +1,29 @@
+.wall {
+    margin-top: 60px;
+    min-height: 340px;
+    background: url('../img/wall/bg.png') no-repeat 50%/cover;
+    &__icon {
+        padding-top: 60px;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+    &__title {
+        padding-top: 25px;
+        font-size: 26px;
+        line-height: 23px;
+        text-align: center;
+        color: $white-colour;
+        font-weight: 700;
+    }
+    &__subtitle {
+        width: 90%;
+        padding-top: 25px;
+        margin: 0 auto;
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        color: $white-colour;
+        text-align: center;
+    }
+}
